@@ -1,0 +1,110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8AB5086D150FC8FF0089DD2A /* application.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = application.rb; sourceTree = "<group>"; };
+		8AB5086F150FC8FF0089DD2A /* Bottom.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Bottom.rb; sourceTree = "<group>"; };
+		8AB50870150FC8FF0089DD2A /* Center.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Center.rb; sourceTree = "<group>"; };
+		8AB50871150FC8FF0089DD2A /* Top.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = Top.rb; sourceTree = "<group>"; };
+		8AB50873150FC8FF0089DD2A /* HotCocoa.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = HotCocoa.icns; sourceTree = "<group>"; };
+		8AB50875150FC90D0089DD2A /* TopWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopWindow.xib; sourceTree = "<group>"; };
+		8AB50878150FD9600089DD2A /* CenterWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CenterWindow.xib; sourceTree = "<group>"; };
+		8AB50879150FD9F00089DD2A /* BottomWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8AB50860150FC7020089DD2A = {
+			isa = PBXGroup;
+			children = (
+				8AB5086C150FC8FF0089DD2A /* lib */,
+				8AB50872150FC8FF0089DD2A /* resources */,
+			);
+			sourceTree = "<group>";
+		};
+		8AB5086C150FC8FF0089DD2A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5086D150FC8FF0089DD2A /* application.rb */,
+				8AB5086E150FC8FF0089DD2A /* windows */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		8AB5086E150FC8FF0089DD2A /* windows */ = {
+			isa = PBXGroup;
+			children = (
+				8AB5086F150FC8FF0089DD2A /* Bottom.rb */,
+				8AB50870150FC8FF0089DD2A /* Center.rb */,
+				8AB50871150FC8FF0089DD2A /* Top.rb */,
+			);
+			path = windows;
+			sourceTree = "<group>";
+		};
+		8AB50872150FC8FF0089DD2A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8AB50873150FC8FF0089DD2A /* HotCocoa.icns */,
+				8AB50875150FC90D0089DD2A /* TopWindow.xib */,
+				8AB50878150FD9600089DD2A /* CenterWindow.xib */,
+				8AB50879150FD9F00089DD2A /* BottomWindow.xib */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		8AB50862150FC7020089DD2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8AB50865150FC7020089DD2A /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8AB50860150FC7020089DD2A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8AB50867150FC7020089DD2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		8AB50868150FC7020089DD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AB50865150FC7020089DD2A /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB50867150FC7020089DD2A /* Debug */,
+				8AB50868150FC7020089DD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AB50862150FC7020089DD2A /* Project object */;
+}
